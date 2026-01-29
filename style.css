@@ -136,27 +136,31 @@ html, body{
 }
 
 .thanksgiving img{
-    width: 17rem;
-    height: 15rem;
+    width: 20rem;
+    height: 17rem;
     border-radius: 10px;
+    border: none;
 }
 
 .nation img{
-    width: 17rem;
-    height: 15rem;
+    width: 20rem;
+    height: 17rem;
     border-radius: 10px;
+    border: none;
 }
 
 
 .church img{
-    width: 17rem;
-    height: 15rem;
+    width: 20rem;
+    height: 17rem;
     border-radius: 10px;
+    border: none;
 }
 
 .family img{
-    width: 17rem;
-    height: 15rem;
+    border: none;
+    width: 20rem;
+    height: 17rem;
     border-radius: 10px;
 }
 
@@ -317,6 +321,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
