@@ -48,7 +48,6 @@ main h2{
 .january{
    background-color: white;
    box-shadow: 4px 4px 10px rgba(44, 44, 44, 0.253);
-   width: 17rem;
    padding: 20px;
    border-radius: 10px;
    margin-bottom: 20px;
@@ -58,7 +57,6 @@ main h2{
 .february{
    background-color: white;
    box-shadow: 4px 4px 10px rgba(44, 44, 44, 0.253);
-   width: 17rem;
    padding: 20px;
    border-radius: 10px;
    margin-bottom: 20px;
@@ -68,7 +66,6 @@ main h2{
 .march{
    background-color: white;
    box-shadow: 4px 4px 10px rgba(44, 44, 44, 0.253);
-   width: 17rem;
    padding: 20px;
    border-radius: 10px;
    margin-bottom: 20px;
@@ -78,7 +75,6 @@ main h2{
 .april{
    background-color: white;
    box-shadow: 4px 4px 10px rgba(44, 44, 44, 0.253);
-   width: 17rem;
    padding: 20px;
    border-radius: 10px;
    margin-bottom: 20px;
@@ -88,7 +84,6 @@ main h2{
 .may{
    background-color: white;
    box-shadow: 4px 4px 10px rgba(44, 44, 44, 0.253);
-   width: 17rem;
    padding: 20px;
    border-radius: 10px;
    margin-bottom: 20px;
@@ -98,7 +93,6 @@ main h2{
 .june{
    background-color: white;
    box-shadow: 4px 4px 10px rgba(44, 44, 44, 0.253);
-   width: 17rem;
    padding: 20px;
    border-radius: 10px;
    margin-bottom: 20px;
@@ -108,7 +102,6 @@ main h2{
 .july{
    background-color: white;
    box-shadow: 4px 4px 10px rgba(44, 44, 44, 0.253);
-   width: 17rem;
    padding: 20px;
    border-radius: 10px;
    margin-bottom: 20px;
@@ -118,7 +111,6 @@ main h2{
 .august{
    background-color: white;
    box-shadow: 4px 4px 10px rgba(44, 44, 44, 0.253);
-   width: 17rem;
    padding: 20px;
    border-radius: 10px;
    margin-bottom: 20px;
@@ -128,7 +120,6 @@ main h2{
 .september{
    background-color: white;
    box-shadow: 4px 4px 10px rgba(44, 44, 44, 0.253);
-   width: 17rem;
    padding: 20px;
    border-radius: 10px;
    margin-bottom: 20px;
@@ -138,7 +129,6 @@ main h2{
 .october{
    background-color: white;
    box-shadow: 4px 4px 10px rgba(44, 44, 44, 0.253);
-   width: 17rem;
    padding: 20px;
    border-radius: 10px;
    margin-bottom: 20px;
@@ -148,7 +138,6 @@ main h2{
 .november{
    background-color: white;
    box-shadow: 4px 4px 10px rgba(44, 44, 44, 0.253);
-   width: 17rem;
    padding: 20px;
    border-radius: 10px;
    margin-bottom: 20px;
@@ -158,7 +147,6 @@ main h2{
 .december{
    background-color: white;
    box-shadow: 4px 4px 10px rgba(44, 44, 44, 0.253);
-   width: 17rem;
    padding: 20px;
    border-radius: 10px;
    margin-bottom: 20px;
@@ -234,3 +222,4 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
