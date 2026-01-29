@@ -1,0 +1,192 @@
+.img{
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+}
+
+html, body{
+  overflow-x: hidden;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  padding: 10px;
+}
+
+.custom-navbar {
+  background-color: #531112;
+}
+
+.nav-link {
+  color: #fff; /* dark text */
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: rgb(201, 11, 11)112;
+}
+
+/* Brand */
+.custom-navbar .navbar-brand {
+  color: #fff;
+  font-weight: bold;
+}
+
+main{
+    margin-top: 7rem;
+    text-align: center;
+}
+
+.row{
+    margin-top: 2rem;
+}
+
+.whatsapp{
+   background-color: hsla(0, 4%, 72%, 0.326);
+   padding: 25px;
+   height: 10rem;
+   line-height: 1.8;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+
+.whatsapp a{
+    font-size: 9px;
+   position: relative;
+   right: 15px;
+   text-align: center;
+}
+
+.whatsapp .icon1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.phone{
+   background-color: hsla(0, 4%, 72%, 0.326);
+   padding: 20px;
+   height: 10rem;
+   line-height: 1.8;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+
+.phone .number{
+    font-size: 13px;
+    text-align: center;
+}
+
+.phone .icon2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.email{
+   background-color: hsla(0, 4%, 72%, 0.326);
+   padding: 20px;
+   height: 10rem;
+   line-height: 1.8;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+
+.email .visit1{
+    font-size: 13px;
+   position: relative;
+   text-align: center;
+}
+
+.email .icon3{
+    font-size: 50px;
+    text-align: center;
+}
+
+.instagram{
+   background-color: hsla(0, 4%, 72%, 0.326);
+   padding: 20px;
+   height: 10rem;
+   line-height: 1.8;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+
+.instagram .visit2{
+    font-size: 13px;
+    text-align: center;
+}
+
+.instagram .icon4{
+    font-size: 50px;
+    text-align: center;
+}
+
+footer{
+    background-color: #531112;
+    color: #fff;
+}
+
+.nav-links2 a{
+    text-decoration: none;
+    color: #ffffffb6;
+    margin-right: 20px;
+    transition: 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.nav-links2 a:hover{
+   color: #960508;  
+}
+
+.paragraph{
+    font-size: 13px;
+    color: #ffffffb6;
+}
+
+.btn{
+    border: none;
+    background-color: #531112;
+    padding: 8px 45px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.btn:hover{
+    background-color: #9b080a;
+    color: #fff;
+}
+
+.btn:active{
+    background-color: #ff1a1e;
+    color: #fff;
+}
+
+.prayer{
+    margin-right: 2rem;
+}
+
+.row4{
+    gap: 20px;
+}
+
+.to-top{
+    font-size: 3rem;
+    /* color: #f6099b; */
+    color: red;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.to-top.active{
+    pointer-events: auto;
+    opacity: 1;
+}

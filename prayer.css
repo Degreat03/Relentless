@@ -1,0 +1,202 @@
+.img{
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+}
+
+html, body{
+  overflow-x: hidden;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  padding: 10px;
+}
+
+.custom-navbar {
+  background-color: #531112;
+}
+
+.nav-link {
+  color: #fff; /* dark text */
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: rgb(201, 11, 11)112;
+}
+
+/* Brand */
+.custom-navbar .navbar-brand {
+  color: #fff;
+  font-weight: bold;
+}
+
+main h2{
+    margin-top: 7rem;
+    text-align: center;
+}
+
+.row{
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.thanks p{
+    font-size: 13px;
+}
+
+.thanks h3{
+    font-size: 20px;
+}
+
+.country p{
+    font-size: 13px;
+}
+
+.country h3{
+    font-size: 20px;
+}
+
+.temple p{
+    font-size: 13px;
+}
+
+.temple h3{
+    font-size: 20px;
+}
+
+.love p{
+    font-size: 13px;
+}
+
+.love h3{
+    font-size: 20px;
+}
+
+.thanks{
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 17rem;
+    margin-bottom: 20px;
+}
+
+.country{
+    background-color: green;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 17rem;
+    margin-bottom: 20px;
+}
+
+.temple{
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 17rem;
+    margin-bottom: 20px;
+}
+
+.love{
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 17rem;
+    margin-bottom: 20px;
+}
+
+.inspire{
+    font-weight: bold;
+}
+
+
+.request{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    background-color: rgba(180, 175, 175, 0.301);
+    padding: 10px;
+}
+
+.request h2{
+    margin: 20px 0;
+}
+
+footer{
+    background-color: #531112;
+    color: #fff;
+}
+
+.nav-links2 a{
+    text-decoration: none;
+    color: #ffffffb6;
+    margin-right: 20px;
+    transition: 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.nav-links2 a:hover{
+   color: #960508;  
+}
+
+.paragraph{
+    font-size: 13px;
+    color: #ffffffb6;
+}
+
+.btn{
+    border: none;
+    background-color: #531112;
+    padding: 8px 45px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.btn:hover{
+    background-color: #9b080a;
+    color: #fff;
+}
+
+.btn:active{
+    background-color: #ff1a1e;
+    color: #fff;
+}
+
+.prayer{
+    margin-right: 2rem;
+}
+
+.row4{
+    gap: 20px;
+}
+
+.to-top{
+    font-size: 3rem;
+    /* color: #f6099b; */
+    color: red;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.to-top.active{
+    pointer-events: auto;
+    opacity: 1;
+}

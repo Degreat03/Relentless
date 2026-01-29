@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divine Intercession</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="prayer.css">
+</head>
+<body>
+     <nav class="navbar navbar-expand-sm custom-navbar  navbar-dark justify-content-center">
+      <div class="container">
+        <a class="navbar-brand text-uppercase custom-link" href="index.html"><img src="images/relentless.png" class="img" alt="relentless logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Features
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="prayer.html">Divine Intercession</a></li>
+                <li><a class="dropdown-item" href="bible.html">Bible reading plan</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            
+          </ul>
+      </div>
+  </nav>
+
+  <main>
+    <h2>Divine Intercession</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="thanks">
+                    <h3>Prayer of thanksgiving</h3>
+                    <p>
+                        “Give thanks to the Lord, for He is good;
+                        His steadfast love endures forever.
+                        We bless You, O Lord, for the gift of life,
+                        For daily provision, for peace, and for joy.
+                        For Your comfort in times of sorrow,
+                        Let our hearts remember Your wonders,
+                        In Jesus’ name, Amen.”
+                    </p>
+                    <p class="inspire">(Inspired by Psalm 107:1, 1 Thessalonians 5:18, and Psalm 103:1-2)</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="country">
+                    <h3>Prayer for the Nation</h3>
+                    <p>
+                        "Heavenly Father,
+                        We lift our nation into Your hands,
+                        Guide our leaders with wisdom, our people with unity,
+                        And protect us with Your steadfast love.
+                        Bring justice where there is oppression,
+                        Peace where there is conflict,
+                        And hope where hearts are weary, May our nation walk in Your light,
+                        Amen."
+                    </p>
+                    <p class="inspire">(Inspired by Psalm 33:12, Proverbs 11:14, 1 Timothy 2:1-2, Psalm 82:3-4)</p>
+            </div>
+                </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="temple">
+                    <h3>Prayer for the Church</h3>
+                    <p>
+                        Heavenly Father,
+                        We lift Your Church into Your hands,
+                        Guide its leaders with wisdom, its members with love,
+                        And protect it with Your unfailing presence.
+                        Strengthen us to proclaim Your truth,
+                        Serve our communities with compassion,
+                        Amen.
+                    </p>
+                    <p class="inspire">(Inspired by Ephesians 4:11-13, Colossians 1:9-12, Matthew 5:14-16, Psalm 133:1)</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div class="love">
+                    <h3>Prayer for the Family</h3>
+                    <p>
+                        Heavenly Father,
+                        We lift our families into Your loving hands,
+                        Guide our parents with wisdom, our children with understanding,
+                        And bind us together with Your steadfast love.
+                        Protect us from harm, strengthen our hearts in patience and kindness,
+                        And fill our homes with peace, joy, and faith.
+                        Amen.
+                    </p>
+                    <p class="inspire">(Inspired by Joshua 24:15, Proverbs 22:6, Psalm 127:1, Ephesians 6:1-4)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </main>
+
+
+    <section>
+        <div class="request">
+            <h2>Submit Prayer Request</h2>
+
+            <textarea id="prayerInput" rows="5" placeholder="Type your prayer request here"></textarea>
+            <br>
+            <button onclick="sendPrayer()" class="btn">Submit</button>
+
+            <h3>Prayer Requests</h3>
+            <div id="prayerList"></div>
+        </div>
+    </section>
+
+    <footer class="py-4">
+        <div class="container">
+            <div class="row row4">
+                <div class="col-sm">
+                    <a class="navbar-brand text-uppercase custom-link" href="index.html"><img src="images/relentless.png" class="img" alt="relentless logo"></a>
+                </div>
+                <div class="col-sm">
+                    <div class="prayer">
+                        <h2 class="fs-5">Prayer & Counselling:</h2>
+                        <p class="paragraph"><i class="bi bi-telephone"></i> 07031475687 or 09019096480</p>
+                    </div>
+                </div>
+                <div class="col-sm c-col">
+                    <h2 class="fs-5">Quick Links</h2>
+                    <div class="nav-links2">
+                        <a href="index.html" class="home">Home</a>
+                        <a href="about.html" class="about">About</a>
+                        <a href="prayer.html" class="pray">Divine Intercession</a>
+                        <a href="bible.html" class="scripture">Bible reading plan</a>
+                        <a href="contact.html" class="contact">Contact</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+   </footer>
+   <a href="#" class="to-top"><i class="bi bi-arrow-up-circle-fill"></i></a>
+    <script src="prayer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

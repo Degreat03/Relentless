@@ -1,0 +1,321 @@
+.img{
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+}
+
+html, body{
+  overflow-x: hidden;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  padding: 10px;
+}
+
+.custom-navbar {
+  background-color: #531112;
+}
+
+.nav-link {
+  color: #fff; /* dark text */
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: rgb(201, 11, 11)112;
+}
+
+/* Brand */
+.custom-navbar .navbar-brand {
+  color: #fff;
+  font-weight: bold;
+}
+
+
+.card {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+     url("images/garden.png");
+    background-size: cover;        /* Fill the screen */
+    background-position: center;   /* Center the image */
+    background-repeat: no-repeat;  /* No tiling */
+    height: 80vh;
+    margin: 3rem 0 0 0 ;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 2;
+    padding: 20px;
+}
+
+#result{
+    
+    font-weight: 700;
+}
+
+#output{
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+}
+
+#display{
+    font-weight: 600;
+}
+
+#displayHours {
+    position: relative;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+
+.row{
+    margin-top: 3rem;
+}
+
+.reason1{
+    background-color: hsla(0, 60%, 99%, 0);
+    box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.301);
+    height: 15rem;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.5;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.reason2{
+    background-color: hsla(0, 60%, 99%, 0);
+    box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.301);
+    height: 15rem;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.5;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.reason3{
+    background-color: hsla(0, 60%, 99%, 0);
+    box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.301);
+    height: 15rem;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.5;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.reason1:hover, .reason2:hover, .reason3:hover{
+    background-color: hsla(0, 0%, 50%, 0.144);
+}
+
+.row1 p{
+    font-size: 13px;
+}
+
+.row1 h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.row2 h3{
+   margin: 20px 0;
+    font-size: 17px;
+}
+
+.thanksgiving img{
+    width: 17rem;
+    height: 15rem;
+    border-radius: 10px;
+}
+
+.nation img{
+    width: 17rem;
+    height: 15rem;
+    border-radius: 10px;
+}
+
+
+.church img{
+    width: 17rem;
+    height: 15rem;
+    border-radius: 10px;
+}
+
+.family img{
+    width: 17rem;
+    height: 15rem;
+    border-radius: 10px;
+}
+
+.verse1{
+    line-height: 1.5;
+}
+
+.verse1 h3{
+    font-size: 17px;
+}
+
+.verse1 p{
+    font-size: 13px;
+    text-align: center;
+}
+
+.verse2{
+    line-height: 1.5;
+}
+
+.verse2 h3{
+    font-size: 17px;
+}
+
+.verse2 p{
+    font-size: 13px;
+    text-align: center;
+}
+
+.verse3{
+    line-height: 1.5;
+}
+
+.verse3 h3{
+    font-size: 17px;
+}
+
+.verse3 p{
+    font-size: 13px;
+    text-align: center;
+}
+
+.read p{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.read a{
+    text-decoration: none;
+    color: #fff;
+    background-color: hsl(0, 100%, 50%);
+    cursor: pointer;
+    transition: 0.3s ease;
+    padding: 10px 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#arrow{
+    margin-left: 10px;
+}
+
+.read a:hover{
+    background-color: hsl(0, 93%, 43%);
+}
+
+.section{
+    background-color: rgba(128, 128, 128, 0.123);
+    
+}
+
+.whatsapp{
+   background-color: hsla(0, 4%, 72%, 0.326);
+   padding: 20px;
+   height: 10rem;
+   line-height: 1.8;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+
+.whatsapp a{
+    font-size: 10px;
+   position: relative;
+   right: 10px;
+   text-align: center;
+}
+
+.whatsapp .icon1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.phone{
+   background-color: hsla(0, 4%, 72%, 0.326);
+   padding: 20px;
+   height: 10rem;
+   line-height: 1.8;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+
+.phone .number{
+    font-size: 13px;
+    text-align: center;
+}
+
+.phone .icon2{
+    font-size: 50px;
+    text-align: center;
+}
+
+footer{
+    background-color: #531112;
+    color: #fff;
+}
+
+.nav-links2 a{
+    text-decoration: none;
+    color: #ffffffb6;
+    margin-right: 20px;
+    transition: 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.nav-links2 a:hover{
+   color: #960508;  
+}
+
+.paragraph{
+    font-size: 13px;
+    color: #ffffffb6;
+}
+
+.prayer{
+    margin-right: 2rem;
+}
+
+.row4{
+    gap: 20px;
+}
+
+.to-top{
+    font-size: 3rem;
+    /* color: #f6099b; */
+    color: red;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.to-top.active{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+
