@@ -83,7 +83,7 @@ main h2{
     color: #fff;
     padding: 10px;
     border-radius: 10px;
-    width: 17rem;
+    height: 18rem;
     margin-bottom: 20px;
 }
 
@@ -92,7 +92,7 @@ main h2{
     color: #fff;
     padding: 10px;
     border-radius: 10px;
-    width: 17rem;
+    height: 18rem;
     margin-bottom: 20px;
 }
 
@@ -101,7 +101,7 @@ main h2{
     color: #fff;
     padding: 10px;
     border-radius: 10px;
-    width: 17rem;
+    height: 18rem;
     margin-bottom: 20px;
 }
 
@@ -110,7 +110,7 @@ main h2{
     color: #fff;
     padding: 10px;
     border-radius: 10px;
-    width: 17rem;
+    height: 18rem;
     margin-bottom: 20px;
 }
 
@@ -199,4 +199,5 @@ footer{
 .to-top.active{
     pointer-events: auto;
     opacity: 1;
+
 }
