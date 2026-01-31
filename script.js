@@ -433,9 +433,9 @@ let dayName = day.getHours();
 
 if (dayName < 12) {
     document.getElementById("displayHours").textContent = `☀ Good Morning`;
-} else if(dayName > 12){
+} else if(dayName < 18){
     document.getElementById("displayHours").textContent = `☀ Good Afternoon`;
-} else if (dayName > 15) {
+} else {
    document.getElementById("displayHours").textContent = `🌓 Good Evening`; 
 }
 
@@ -450,6 +450,7 @@ window.addEventListener("scroll", function(){
         toTop.classList.remove("active");
     }
 })
+
 
 
 
