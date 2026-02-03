@@ -47,6 +47,14 @@ html, body{
    }
 }
 
+.img1{
+    animation: fade-in 1s 1s ease backwards;
+}
+
+.img2{
+    animation: fade-in 1s 2s ease backwards;
+}
+
 .history{
     margin-top: 7rem;
 }
@@ -69,7 +77,6 @@ html, body{
     width: 20rem;
     border: none;
     border-radius: 10px;
-    animation: fade-in 1s 2s ease backwards;
 }
 
 .box{
@@ -180,5 +187,6 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
