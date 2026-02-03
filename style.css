@@ -90,7 +90,7 @@ html, body{
   animation: intro 1s 1.5s ease backwards;
 }
 
-.why{
+.read{
   animation: intro 1s 1.5s ease backwards;
 }
 
@@ -226,6 +226,10 @@ html, body{
     height: 17rem;
     border-radius: 10px;
     animation: fade-in ease 1s 4.5s backwards;
+}
+
+.row3{
+    animation: intro 1s 1.5s ease backwards;
 }
 
 .verse1{
@@ -385,6 +389,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
