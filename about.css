@@ -35,25 +35,7 @@ html, body{
   font-weight: bold;
 }
 
-@keyframes fade-in{
-   0% {
-       opacity: 0;
-       transform: translateY(10px) scale(0.96);
-   }
 
-   100% {
-       opacity: 1;
-       transform: translateY(0) scale(1);
-   }
-}
-
-.img1{
-    animation: fade-in 1s 1s ease backwards;
-}
-
-.img2{
-    animation: fade-in 1s 2s ease backwards;
-}
 
 .history{
     margin-top: 7rem;
@@ -187,6 +169,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
