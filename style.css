@@ -135,6 +135,22 @@ html, body{
     font-size: 17px;
 }
 
+@keyframes fade-in{
+   0% {
+       opacity: 0;
+       transform: translate(0)
+   }
+
+   100% {
+       opacity: 1;
+       transform: translate(30px)
+   }
+}
+
+.row2{
+   animation: fade-in ease 1s 1s backwards;
+}
+
 .thanksgiving img{
     width: 20rem;
     height: 17rem;
@@ -321,6 +337,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
