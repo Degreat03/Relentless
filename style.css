@@ -160,7 +160,7 @@ html, body{
 @keyframes fade-in{
    0% {
        opacity: 0;
-       transform: translateY(30px)
+       transform: translateY(10px)
    }
 
    100% {
@@ -360,6 +360,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
