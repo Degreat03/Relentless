@@ -149,7 +149,7 @@ html, body{
 }
 
 .row2{
-   animation: fade-in ease 1s 3s backwards;
+   animation: fade-in ease 1s 2s backwards;
 }
 
 .thanksgiving img{
@@ -338,6 +338,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
