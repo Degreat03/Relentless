@@ -91,7 +91,7 @@ html, body{
 }
 
 .pray{
-    animation: intro 1s 2s ease backwards;
+    animation: intro 1s 1.5s ease backwards;
 }
 
 
@@ -157,25 +157,25 @@ html, body{
 .thanksgiving h3{
    margin: 20px 0;
     font-size: 17px;
-    animation: fade-in 1s 3s ease backwards;
+    animation: fade-in 1s 2s ease backwards;
 }
 
 .nation h3{
    margin: 20px 0;
     font-size: 17px;
-    animation: fade-in 1s 4s ease backwards;
+    animation: fade-in 1s 2.3s ease backwards;
 }
 
 .church h3{
    margin: 20px 0;
     font-size: 17px;
-    animation: fade-in 1s 5s ease backwards;
+    animation: fade-in 1s 2.5s ease backwards;
 }
 
 .family h3{
    margin: 20px 0;
     font-size: 17px;
-    animation: fade-in 1s 6s ease backwards;
+    animation: fade-in 1s 2.7s ease backwards;
 }
 
 @keyframes fade-in{
@@ -197,7 +197,7 @@ html, body{
     height: 17rem;
     border-radius: 10px;
     border: none;
-    animation: fade-in 1s 3s ease backwards;
+    animation: fade-in 1s 2s ease backwards;
 }
 
 .nation img{
@@ -205,7 +205,7 @@ html, body{
     height: 17rem;
     border-radius: 10px;
     border: none;
-    animation: fade-in 1s 4s ease backwards;
+    animation: fade-in 1s 2.3s ease backwards;
 }
 
 
@@ -214,7 +214,7 @@ html, body{
     height: 17rem;
     border-radius: 10px;
     border: none;
-    animation: fade-in 1s 5s ease backwards;
+    animation: fade-in 1s 2.5s ease backwards;
 }
 
 .family img{
@@ -222,7 +222,7 @@ html, body{
     width: 20rem;
     height: 17rem;
     border-radius: 10px;
-    animation: fade-in 1s 6s ease backwards;
+    animation: fade-in 1s 2.7s ease backwards;
 }
 
 
@@ -385,6 +385,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
