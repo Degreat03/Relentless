@@ -86,7 +86,7 @@ html, body{
   }
 }
 
-.pray{
+.pray, .choose{
   animation: intro 1s 2s ease backwards;
 }
 
@@ -381,6 +381,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
