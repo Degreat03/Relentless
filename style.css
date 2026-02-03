@@ -153,9 +153,7 @@ html, body{
     animation: fade-in ease 1s 1s backwards;
 }
 
-.pray{
-    animation: fade-in ease 1s 1s backwards;
-}
+
 
 
 .thanksgiving h3{
@@ -229,7 +227,7 @@ html, body{
 }
 
 .row3{
-    animation: fade-in 1s 50s ease backwards;
+    animation: fade-in 1s 50s ease forwards;
 }
 
 .verse1{
@@ -389,6 +387,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
