@@ -227,7 +227,7 @@ html, body{
 }
 
 .row3{
-    animation: fade-in 1s 50s ease forwards;
+    animation: fade-in 1s 7s ease forwards;
 }
 
 .verse1{
@@ -387,6 +387,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
