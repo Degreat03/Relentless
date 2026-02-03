@@ -47,9 +47,21 @@ html, body{
    }
 }
 
+@keyframes intro {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
 main h2{
     margin-top: 7rem;
     text-align: center;
+    animation: intro 1s 1s ease backwards;
 }
 
 .row{
@@ -217,5 +229,6 @@ footer{
     opacity: 1;
 
 }
+
 
 
