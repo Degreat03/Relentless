@@ -58,7 +58,7 @@ html, body{
   }
 }
 
-main h2{
+.inter{
     margin-top: 7rem;
     text-align: center;
     animation: intro 1s 1s ease backwards;
@@ -229,6 +229,7 @@ footer{
     opacity: 1;
 
 }
+
 
 
 
