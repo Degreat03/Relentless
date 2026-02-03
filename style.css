@@ -164,7 +164,6 @@ html, body{
    100% {
        opacity: 1;
        transform: translate(30px);
-       scale: 1.05;
    }
 }
 
@@ -359,6 +358,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
