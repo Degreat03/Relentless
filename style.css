@@ -167,19 +167,19 @@ html, body{
 .nation h3{
    margin: 20px 0;
     font-size: 17px;
-    animation: fade-in ease 1s 3.5s backwards;
+    animation: fade-in ease 1s 4s backwards;
 }
 
 .church h3{
    margin: 20px 0;
     font-size: 17px;
-    animation: fade-in ease 1s 4s backwards;
+    animation: fade-in ease 1s 5s backwards;
 }
 
 .family h3{
    margin: 20px 0;
     font-size: 17px;
-    animation: fade-in ease 1s 4.5s backwards;
+    animation: fade-in ease 1s 6s backwards;
 }
 
 @keyframes fade-in{
@@ -208,7 +208,7 @@ html, body{
     height: 17rem;
     border-radius: 10px;
     border: none;
-    animation: fade-in ease 1s 3.5s backwards;
+    animation: fade-in ease 1s 4s backwards;
 }
 
 
@@ -217,7 +217,7 @@ html, body{
     height: 17rem;
     border-radius: 10px;
     border: none;
-    animation: fade-in ease 1s 4s backwards;
+    animation: fade-in ease 1s 5s backwards;
 }
 
 .family img{
@@ -225,11 +225,11 @@ html, body{
     width: 20rem;
     height: 17rem;
     border-radius: 10px;
-    animation: fade-in ease 1s 4.5s backwards;
+    animation: fade-in ease 1s 6s backwards;
 }
 
 .row3{
-    animation: intro 1s 3s ease backwards;
+    animation: intro 1s 10s ease backwards;
 }
 
 .verse1{
@@ -389,6 +389,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
