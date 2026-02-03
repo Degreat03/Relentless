@@ -90,7 +90,7 @@ html, body{
   animation: intro 1s 1.5s ease backwards;
 }
 
-.choose{
+.why{
   animation: intro 1s 1.5s ease backwards;
 }
 
@@ -385,6 +385,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
