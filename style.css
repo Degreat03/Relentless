@@ -133,6 +133,10 @@ html, body{
     animation: fade-in ease 1s 1s backwards;
 }
 
+.pray{
+    animation: fade-in ease 1s 1s backwards;
+}
+
 
 .thanksgiving h3{
    margin: 20px 0;
@@ -361,6 +365,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
