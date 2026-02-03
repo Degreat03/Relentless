@@ -87,7 +87,7 @@ html, body{
 }
 
 .pray{
-  animation: heading-fade-up 0.6s ease-out backwards;
+  animation: heading-fade-up 1s 2s ease backwards;
 }
 
 
@@ -381,6 +381,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
