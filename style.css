@@ -98,6 +98,10 @@ html, body{
     animation: intro 1s 3s ease backwards;
 }
 
+.text{
+    animation: intro 1s 4s ease backwards;
+}
+
 
 .row{
     margin-top: 3rem;
@@ -306,6 +310,7 @@ html, body{
    line-height: 1.8;
    border-radius: 10px;
    margin-bottom: 20px;
+   animation: fade-in 1s 6s ease backwards;
 }
 
 .whatsapp a{
@@ -327,6 +332,7 @@ html, body{
    line-height: 1.8;
    border-radius: 10px;
    margin-bottom: 20px;
+   animation: fade-in 1s 6s ease backwards;
 }
 
 .phone .number{
@@ -388,6 +394,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
