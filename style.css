@@ -75,19 +75,19 @@ html, body{
     font-weight: 600;
 }
 
-@keyframes heading-fade-up {
+@keyframes intro {
   from {
     opacity: 0;
-    transform: translateY(12px);
+    transform: translateY(12px) scale(0.96);
   }
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(0) scale(1);
   }
 }
 
 .pray{
-  animation: heading-fade-up 1s 2s ease backwards;
+  animation: intro 1s 2s ease backwards;
 }
 
 
@@ -181,12 +181,12 @@ html, body{
 @keyframes fade-in{
    0% {
        opacity: 0;
-       transform: translateY(10px)
+       transform: translateY(10px) scale(0.96);
    }
 
    100% {
        opacity: 1;
-       transform: translateY(0);
+       transform: translateY(0) scale(1);
    }
 }
 
@@ -381,6 +381,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
