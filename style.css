@@ -229,7 +229,7 @@ html, body{
 }
 
 .row3{
-    animation: intro 1s 10s ease backwards;
+    animation: intro 1s 20s ease backwards;
 }
 
 .verse1{
@@ -389,6 +389,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
