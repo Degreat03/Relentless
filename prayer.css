@@ -61,7 +61,7 @@ html, body{
 .inter{
     margin-top: 7rem;
     text-align: center;
-    animation: intro 1s 0.3s ease backwards;
+    animation: intro 1s 0.1s ease backwards;
 }
 
 .row{
@@ -119,7 +119,7 @@ html, body{
     border-radius: 10px;
     height: 18rem;
     margin-bottom: 20px;
-    animation: fade-in 1s 2s ease backwards;
+    animation: fade-in 1s 1.3s ease backwards;
 }
 
 .temple{
@@ -129,7 +129,7 @@ html, body{
     border-radius: 10px;
     height: 18rem;
     margin-bottom: 20px;
-    animation: fade-in 1s 3s ease backwards;
+    animation: fade-in 1s 1.5s ease backwards;
 }
 
 .love{
@@ -139,7 +139,7 @@ html, body{
     border-radius: 10px;
     height: 18rem;
     margin-bottom: 20px;
-    animation: fade-in 1s 4s ease backwards;
+    animation: fade-in 1s 1.7s ease backwards;
 }
 
 .inspire{
@@ -155,7 +155,7 @@ html, body{
     margin: 40px 0;
     background-color: rgba(180, 175, 175, 0.301);
     padding: 10px;
-    animation: fade-in 1s 1s ease backwards;
+    animation: fade-in 1s 2s ease backwards;
 }
 
 .request h2{
@@ -232,6 +232,7 @@ footer{
     opacity: 1;
 
 }
+
 
 
 
