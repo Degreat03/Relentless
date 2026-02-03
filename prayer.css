@@ -47,14 +47,6 @@ html, body{
    }
 }
 
-.img1{
-    animation: fade-in 1s 1s ease backwards;
-}
-
-.img2{
-    animation: fade-in 1s 2s ease backwards;
-}
-
 main h2{
     margin-top: 7rem;
     text-align: center;
@@ -105,6 +97,7 @@ main h2{
     border-radius: 10px;
     height: 18rem;
     margin-bottom: 20px;
+    animation: fade-in 1s 1s ease backwards;
 }
 
 .country{
@@ -114,6 +107,7 @@ main h2{
     border-radius: 10px;
     height: 18rem;
     margin-bottom: 20px;
+    animation: fade-in 1s 2s ease backwards;
 }
 
 .temple{
@@ -123,6 +117,7 @@ main h2{
     border-radius: 10px;
     height: 18rem;
     margin-bottom: 20px;
+    animation: fade-in 1s 3s ease backwards;
 }
 
 .love{
@@ -132,6 +127,7 @@ main h2{
     border-radius: 10px;
     height: 18rem;
     margin-bottom: 20px;
+    animation: fade-in 1s 4s ease backwards;
 }
 
 .inspire{
@@ -221,4 +217,5 @@ footer{
     opacity: 1;
 
 }
+
 
