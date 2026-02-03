@@ -155,6 +155,7 @@ html, body{
     margin: 40px 0;
     background-color: rgba(180, 175, 175, 0.301);
     padding: 10px;
+    animation: fade-in 1s 1s ease backwards;
 }
 
 .request h2{
@@ -231,6 +232,7 @@ footer{
     opacity: 1;
 
 }
+
 
 
 
