@@ -191,7 +191,7 @@ html, body{
     height: 17rem;
     border-radius: 10px;
     border: none;
-    animation: fade-in ease 1s 1.9s backwards;
+    animation: fade-in ease 1s 3s backwards;
 }
 
 .family img{
@@ -199,7 +199,7 @@ html, body{
     width: 20rem;
     height: 17rem;
     border-radius: 10px;
-    animation: fade-in ease 1s 2s backwards;
+    animation: fade-in ease 1s 3.5s backwards;
 }
 
 .verse1{
@@ -359,6 +359,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
