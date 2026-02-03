@@ -90,7 +90,7 @@ html, body{
     transition: 0.3s ease;
     cursor: pointer;
     margin-bottom: 20px;
-    animation 
+    animation: fade-in ease 1s 1s backwards;
 }
 
 .reason2{
@@ -103,6 +103,7 @@ html, body{
     transition: 0.3s ease;
     cursor: pointer;
     margin-bottom: 20px;
+    animation: fade-in ease 1s 1.5s backwards;
 }
 
 .reason3{
@@ -115,6 +116,7 @@ html, body{
     transition: 0.3s ease;
     cursor: pointer;
     margin-bottom: 20px;
+    animation: fade-in ease 1s 2s backwards;
 }
 
 .reason1:hover, .reason2:hover, .reason3:hover{
@@ -358,6 +360,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
