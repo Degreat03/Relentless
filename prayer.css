@@ -192,11 +192,13 @@ footer{
     padding: 8px 45px;
     color: #fff;
     margin-bottom: 10px;
+    transition: all 3s ease;
 }
 
 .btn:hover{
     background-color: #9b080a;
     color: #fff;
+    transform: scale(1.05);
 }
 
 .btn:active{
@@ -229,6 +231,7 @@ footer{
     opacity: 1;
 
 }
+
 
 
 
