@@ -61,7 +61,7 @@ html, body{
 .inter{
     margin-top: 7rem;
     text-align: center;
-    animation: intro 1s 1s ease backwards;
+    animation: intro 1s 0.3s ease backwards;
 }
 
 .row{
@@ -229,6 +229,7 @@ footer{
     opacity: 1;
 
 }
+
 
 
 
