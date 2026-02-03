@@ -143,12 +143,13 @@ html, body{
 
    100% {
        opacity: 1;
-       transform: translate(30px)
+       transform: translate(30px);
+       scale: 1.05;
    }
 }
 
 .row2{
-   animation: fade-in ease 1s 1s backwards;
+   animation: fade-in ease 1s 3s backwards;
 }
 
 .thanksgiving img{
@@ -337,6 +338,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
