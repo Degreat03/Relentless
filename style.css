@@ -158,24 +158,32 @@ html, body{
    margin: 20px 0;
     font-size: 17px;
     animation: fade-in 1s 2s ease backwards;
+    animation-timeline: view();
+  animation-range: entry 20% cover 40%;
 }
 
 .nation h3{
    margin: 20px 0;
     font-size: 17px;
     animation: fade-in 1s 2.3s ease backwards;
+    animation-timeline: view();
+  animation-range: entry 20% cover 40%;
 }
 
 .church h3{
    margin: 20px 0;
     font-size: 17px;
     animation: fade-in 1s 2.5s ease backwards;
+    animation-timeline: view();
+  animation-range: entry 20% cover 40%;
 }
 
 .family h3{
    margin: 20px 0;
     font-size: 17px;
     animation: fade-in 1s 2.7s ease backwards;
+    animation-timeline: view();
+   animation-range: entry 20% cover 40%;
 }
 
 @keyframes fade-in{
@@ -198,6 +206,9 @@ html, body{
     border-radius: 10px;
     border: none;
     animation: fade-in 1s 2s ease backwards;
+    animation-timeline: view();
+  animation-range: entry 20% cover 40%;
+
 }
 
 .nation img{
@@ -206,6 +217,8 @@ html, body{
     border-radius: 10px;
     border: none;
     animation: fade-in 1s 2.3s ease backwards;
+    animation-timeline: view();
+  animation-range: entry 20% cover 40%;
 }
 
 
@@ -215,6 +228,8 @@ html, body{
     border-radius: 10px;
     border: none;
     animation: fade-in 1s 2.5s ease backwards;
+    animation-timeline: view();
+  animation-range: entry 20% cover 40%;
 }
 
 .family img{
@@ -223,6 +238,8 @@ html, body{
     height: 17rem;
     border-radius: 10px;
     animation: fade-in 1s 2.7s ease backwards;
+    animation-timeline: view();
+  animation-range: entry 20% cover 40%;
 }
 
 
@@ -385,6 +402,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
