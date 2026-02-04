@@ -153,6 +153,12 @@ html, body{
     font-size: 20px;
 }
 
+.row2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
 .img-wrap {
   position: relative;
   display: inline-block;
@@ -425,6 +431,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
