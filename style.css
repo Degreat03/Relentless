@@ -153,6 +153,46 @@ html, body{
     font-size: 20px;
 }
 
+.img-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.img-wrap img {
+  display: block;
+  
+}
+
+/* overlay */
+.img-wrap::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(128, 128, 128, 0.4);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.overlay-text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+/* show overlay only when hovering image */
+.img-wrap:hover::after, 
+ .img-wrap:hover .overlay-text{
+  opacity: 1;
+
+}
 
 .thanksgiving h3{
    margin: 20px 0;
@@ -385,6 +425,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
