@@ -190,6 +190,7 @@ html, body{
   display: inline-block;
   overflow: hidden; /* Keeps overlay within image */
   width: 17rem;
+  border-radius: 10px;
 }
 
 /* Image fills container */
@@ -424,6 +425,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
