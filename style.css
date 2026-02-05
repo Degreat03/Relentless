@@ -220,6 +220,10 @@ html, body{
   padding: 10px;
 }
 
+.overlay-text a{
+    color: white;
+}
+
 /* Hover effect */
 .img-wrap:hover .overlay-text {
   opacity: 1; /* show overlay on hover */
@@ -388,6 +392,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
