@@ -75,6 +75,59 @@ html, body{
     font-weight: 600;
 }
 
+.row{
+    margin-top: 3rem;
+}
+
+.reason1{
+    background-color: hsla(0, 60%, 99%, 0);
+    box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.301);
+    height: 15rem;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.5;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.reason2{
+    background-color: hsla(0, 60%, 99%, 0);
+    box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.301);
+    height: 15rem;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.5;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.reason3{
+    background-color: hsla(0, 60%, 99%, 0);
+    box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.301);
+    height: 15rem;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.5;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.reason1:hover, .reason2:hover, .reason3:hover{
+    background-color: hsla(0, 0%, 50%, 0.144);
+}
+
+.row1 p{
+    font-size: 13px;
+}
+
+.row1 h3{
+    text-align: center;
+    font-size: 20px;
+}
+
 /* Hidden before scroll */
 .reveal {
   opacity: 0;
