@@ -17,6 +17,7 @@ const observer = new IntersectionObserver((entries, observer) => {
   });
 }, { threshold: 0.25 }); // Trigger when 25% visible
 
-document.querySelectorAll(".reveal").forEach(el => {
+document.querySelectorAll(".img-reveal").forEach(el => {
   observer.observe(el);
 });
+
