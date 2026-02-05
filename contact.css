@@ -35,9 +35,42 @@ html, body{
   font-weight: bold;
 }
 
+@keyframes intro{
+    from{
+        opacity: 0;
+        scale: .5;
+    }
+
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.why{
+    animation: intro 1s 1s ease backwards;
+}
+
+.pray{
+    animation: intro 1s 1.5s ease backwards;
+}
+
+@keyframes fade-in{
+    from {
+        opacity: 0;
+        transform: translateY(10px) scale(.5);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
 main{
     margin-top: 7rem;
     text-align: center;
+    animation: intro 1s 1s ease backwards;
 }
 
 .row{
@@ -51,6 +84,7 @@ main{
    line-height: 1.8;
    border-radius: 10px;
    margin-bottom: 20px;
+   animation: intro 1s 1.5s ease backwards;
 }
 
 .whatsapp a{
@@ -72,6 +106,7 @@ main{
    line-height: 1.8;
    border-radius: 10px;
    margin-bottom: 20px;
+   animation: intro 1s 2s ease backwards;
 }
 
 .phone .number{
@@ -91,6 +126,7 @@ main{
    line-height: 1.8;
    border-radius: 10px;
    margin-bottom: 20px;
+   animation: intro 1s 2.5s ease backwards;
 }
 
 .email .visit1{
@@ -111,6 +147,7 @@ main{
    line-height: 1.8;
    border-radius: 10px;
    margin-bottom: 20px;
+   animation: intro 1s 3s ease backwards;
 }
 
 .instagram .visit2{
@@ -189,4 +226,5 @@ footer{
 .to-top.active{
     pointer-events: auto;
     opacity: 1;
+
 }
