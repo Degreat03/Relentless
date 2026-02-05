@@ -233,7 +233,39 @@ html, body{
   transform: scale(1.05); /* optional zoom-in for effect */
 }
 
+.row2 h3{
+   margin: 20px 0;
+    font-size: 17px;
+}
 
+.thanksgiving img{
+    width: 20rem;
+    height: 17rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.nation img{
+    width: 20rem;
+    height: 17rem;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.church img{
+    width: 20rem;
+    height: 17rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.family img{
+    border: none;
+    width: 20rem;
+    height: 17rem;
+    border-radius: 10px;
+}
 .verse1{
     line-height: 1.5;
 }
@@ -392,6 +424,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
