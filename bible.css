@@ -35,17 +35,6 @@ html, body{
   font-weight: bold;
 }
 
-@keyframes fade-in{
-   0% {
-       opacity: 0;
-       transform: translateY(10px) scale(0.96);
-   }
-
-   100% {
-       opacity: 1;
-       transform: translateY(0) scale(1);
-   }
-}
 
 @keyframes intro {
   from {
@@ -69,6 +58,27 @@ main h2{
     animation: intro 1s 1s ease backwards;
 }
 
+.reveal {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal {
+  transform: scale(0.9) translateY(40px);
+  filter: blur(2px);
+  transition: opacity 1.1s cubic-bezier(0.22,1,0.36,1), transform 1.1s cubic-bezier(0.22,1,0.36,1), filter 1.1s ease-out;
+}
+
+.reveal.active {
+  transform: scale(1) translateY(0);
+  filter: none;
+}
+
 .january{
    background-color: white;
    box-shadow: 4px 4px 10px rgba(44, 44, 44, 0.253);
@@ -76,7 +86,6 @@ main h2{
    border-radius: 10px;
    margin-bottom: 20px;
    height: 97rem;
-   animation: fade-in 1s 1.5s ease backwards;
 }
 
 .february{
@@ -96,7 +105,6 @@ main h2{
    border-radius: 10px;
    margin-bottom: 20px;
    height: 97rem;
-   animation: fade-in 1s 2.5s ease backwards;
 }
 
 .april{
@@ -106,7 +114,6 @@ main h2{
    border-radius: 10px;
    margin-bottom: 20px;
    height: 97rem;
-   animation: fade-in 1s 3s ease backwards;
 }
 
 .may{
@@ -116,7 +123,6 @@ main h2{
    border-radius: 10px;
    margin-bottom: 20px;
    height: 97rem;
-   animation: fade-in 1s 3.5s ease backwards;
 }
 
 .june{
@@ -126,7 +132,6 @@ main h2{
    border-radius: 10px;
    margin-bottom: 20px;
    height: 97rem;
-   animation: fade-in 1s 4s ease backwards;
 }
 
 .july{
@@ -136,7 +141,6 @@ main h2{
    border-radius: 10px;
    margin-bottom: 20px;
    height: 97rem;
-   animation: fade-in 1s 4.5s ease backwards;
 }
 
 .august{
@@ -146,7 +150,6 @@ main h2{
    border-radius: 10px;
    margin-bottom: 20px;
    height: 97rem;
-   animation: fade-in 1s 5s ease backwards;
 }
 
 .september{
@@ -156,7 +159,6 @@ main h2{
    border-radius: 10px;
    margin-bottom: 20px;
    height: 97rem;
-   animation: fade-in 1s 5.5s ease backwards;
 }
 
 .october{
@@ -166,7 +168,6 @@ main h2{
    border-radius: 10px;
    margin-bottom: 20px;
    height: 97rem;
-   animation: fade-in 1s 6s ease backwards;
 }
 
 .november{
@@ -176,7 +177,6 @@ main h2{
    border-radius: 10px;
    margin-bottom: 20px;
    height: 97rem;
-   animation: fade-in 1s 6.5s ease backwards;
 }
 
 .december{
@@ -186,7 +186,6 @@ main h2{
    border-radius: 10px;
    margin-bottom: 20px;
    height: 97rem;
-   animation: fade-in 1s 7s ease backwards;
 }
 
 section h3{
@@ -258,5 +257,6 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
