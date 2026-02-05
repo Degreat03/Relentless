@@ -75,201 +75,15 @@ html, body{
     font-weight: 600;
 }
 
-@keyframes intro {
-  from {
-    opacity: 0;
-    transform: translateY(12px) scale(0.96);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
-
-.why{
-    animation: intro 1s 1s ease backwards;
-}
-
-.pray{
-    animation: intro 1s 1.5s ease backwards;
-}
-
-.studyS{
-    animation: intro 1s 1.5s ease backwards;
-}
-.row{
-    margin-top: 3rem;
-}
-
-.reason1{
-    background-color: hsla(0, 60%, 99%, 0);
-    box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.301);
-    height: 15rem;
-    padding: 20px;
-    border-radius: 10px;
-    line-height: 1.5;
-    transition: 0.3s ease;
-    cursor: pointer;
-    margin-bottom: 20px;
-    animation: fade-in 1s 1.5s ease backwards;
-}
-
-.reason2{
-    background-color: hsla(0, 60%, 99%, 0);
-    box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.301);
-    height: 15rem;
-    padding: 20px;
-    border-radius: 10px;
-    line-height: 1.5;
-    transition: 0.3s ease;
-    cursor: pointer;
-    margin-bottom: 20px;
-    animation: fade-in 1s 2s ease backwards;
-}
-
-.reason3{
-    background-color: hsla(0, 60%, 99%, 0);
-    box-shadow: 4px 4px 10px rgba(23, 23, 23, 0.301);
-    height: 15rem;
-    padding: 20px;
-    border-radius: 10px;
-    line-height: 1.5;
-    transition: 0.3s ease;
-    cursor: pointer;
-    margin-bottom: 20px;
-    animation: fade-in 1s 2.5s ease backwards;
-}
-
-.reason1:hover, .reason2:hover, .reason3:hover{
-    background-color: hsla(0, 0%, 50%, 0.144);
-}
-
-.row1 p{
-    font-size: 13px;
-}
-
-.row1 h3{
-    text-align: center;
-    font-size: 20px;
-}
-
-.row2 a{
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-}
-
-.img-wrap {
-  position: relative;
-  display: inline-block;
-}
-
-.img-wrap img {
-  display: block;
-  
-}
-
-/* overlay */
-.img-wrap::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-color: rgba(128, 128, 128, 0.4);
+/* Hidden before scroll */
+.reveal {
   opacity: 0;
-  transition: opacity 0.3s ease;
-  border-radius: 10px;
+  transform: translateY(15px) scale(0.96);
 }
 
-.overlay-text {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 1.1rem;
-  font-weight: 600;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  z-index: 1;
-}
-
-/* show overlay only when hovering image */
-.img-wrap:hover::after, 
- .img-wrap:hover .overlay-text{
-  opacity: 1;
-
-}
-
-.thanksgiving h3{
-   margin: 20px 0;
-    font-size: 17px;
-     animation: fade-in 1s 3s ease backwards;
-}
-
-.nation h3{
-   margin: 20px 0;
-    font-size: 17px;
-     animation: fade-in 1s 3.5s ease backwards;
-}
-
-.church h3{
-   margin: 20px 0;
-    font-size: 17px;
-     animation: fade-in 1s 4s ease backwards;
-}
-
-.family h3{
-   margin: 20px 0;
-    font-size: 17px;
-     animation: fade-in 1s 4.5s ease backwards;
-}
-
-@keyframes fade-in{
-   0% {
-       opacity: 0;
-       transform: translateY(10px) scale(0.96);
-   }
-
-   100% {
-       opacity: 1;
-       transform: translateY(0) scale(1);
-   }
-}
-
-
-
-.thanksgiving img{
-    width: 20rem;
-    height: 17rem;
-    border-radius: 10px;
-    border: none;
-     animation: fade-in 1s 3s ease backwards;
-}
-
-.nation img{
-    width: 20rem;
-    height: 17rem;
-    border-radius: 10px;
-    border: none;
-     animation: fade-in 1s 3.5s ease backwards;
-}
-
-
-.church img{
-    width: 20rem;
-    height: 17rem;
-    border-radius: 10px;
-    border: none;
-     animation: fade-in 1s 4s ease backwards;
-}
-
-.family img{
-    border: none;
-    width: 20rem;
-    height: 17rem;
-    border-radius: 10px;
-     animation: fade-in 1s 4.5s ease backwards;
+/* Activated by JS */
+.reveal.active {
+  animation: fade-in 0.9s ease forwards;
 }
 
 
@@ -432,6 +246,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
