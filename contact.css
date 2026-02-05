@@ -47,14 +47,6 @@ html, body{
     }
 }
 
-.why{
-    animation: intro 1s 1s ease backwards;
-}
-
-.pray{
-    animation: intro 1s 1.5s ease backwards;
-}
-
 @keyframes fade-in{
     from {
         opacity: 0;
@@ -228,3 +220,4 @@ footer{
     opacity: 1;
 
 }
+
