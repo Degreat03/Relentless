@@ -185,7 +185,7 @@ html, body{
 }
 
 /* Container to position overlay */
-.image-container {
+.img-wrap {
   position: relative;
   display: inline-block;
   overflow: hidden; /* Keeps overlay within image */
@@ -193,7 +193,7 @@ html, body{
 }
 
 /* Image fills container */
-.image-container img {
+.img-wrap img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -221,11 +221,11 @@ html, body{
 }
 
 /* Hover effect */
-.image-container:hover .overlay-text {
+.img-wrap:hover .overlay-text {
   opacity: 1; /* show overlay on hover */
 }
 
-.image-container:hover img {
+.img-wrap:hover img {
   transform: scale(1.05); /* optional zoom-in for effect */
 }
 
@@ -388,6 +388,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
