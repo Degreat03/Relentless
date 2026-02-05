@@ -451,24 +451,7 @@ window.addEventListener("scroll", function(){
     }
 })
 
-document.addEventListener("DOMContentLoaded", function () {
 
-  const reveals = document.querySelectorAll(".reveal");
-
-  const observer = new IntersectionObserver(function(entries) {
-    entries.forEach(function(entry) {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("active");
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.3 });
-
-  reveals.forEach(function(el) {
-    observer.observe(el);
-  });
-
-});
 
 
 
