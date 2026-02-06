@@ -464,6 +464,20 @@ document.querySelectorAll(".reveal").forEach(el => {
   observer.observe(el);
 });
 
+function updateClock(){
+    const time = new Date();
+    const hours = time.getHours().toString().padStart(2, 0);
+    const meridiem = hours >= 12 ? "PM" : "AM";
+    const minutes = time.getMinutes().toString().padStart(2, 0);
+    const seconds = time.getSeconds().toString().padStart(2, 0);
+    const timeStrings = `${hours}: ${minutes}: ${seconds}: ${meridiem}`;
+    document.getElementById("clock").textContent = timeStrings;
+}
+
+updateClock();
+setInterval(updateClock, 1000);
+
+
 
 
 
