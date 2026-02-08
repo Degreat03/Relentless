@@ -36,9 +36,7 @@ html, body{
 }
 
 
-.card {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-     url("garden.png");
+#card {
     background-size: cover;        /* Fill the screen */
     background-position: center;   /* Center the image */
     background-repeat: no-repeat;  /* No tiling */
@@ -438,6 +436,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
