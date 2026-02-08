@@ -439,7 +439,27 @@ if (dayName < 12) {
    document.getElementById("displayHours").textContent = `🌓 Good Evening`; 
 }
 
+const backgrounds = [
+    "images/garden.png",
+    "images/bg-img1.png",
+    "images/bg-img2.png",
+    "images/bg-img3.png",
+    "images/bg-img4.png",
+    "images/bg-img5.png",
+    "images/bg-img6.png",
+];
 
+const el = document.getElementById("card");
+
+// Get day number in the year (0–365)
+const start = new Date(new Date().getFullYear(), 0, 0);
+const newDay = new Date();
+const dayOfYear = Math.floor((newDay - start) / 86400000);
+
+// Pick image based on day
+const timing = 0;
+
+el.style.backgroundImage = `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${backgrounds[timing]})`;
 
 const toTop = document.querySelector(".to-top")
 
@@ -476,6 +496,7 @@ function updateClock(){
 
 updateClock();
 setInterval(updateClock, 1000);
+
 
 
 
