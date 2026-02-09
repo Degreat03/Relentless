@@ -461,7 +461,7 @@ const timing = dayOfYear % backgrounds.length;
 
 el.style.backgroundImage = `
   linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-  url(${backgrounds[timing]})
+  url(${backgrounds["bg-img1"]})
 `;
 
 const toTop = document.querySelector(".to-top")
@@ -499,6 +499,7 @@ function updateClock(){
 
 updateClock();
 setInterval(updateClock, 1000);
+
 
 
 
