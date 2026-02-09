@@ -447,6 +447,7 @@ const backgrounds = [
     "bg-img4.png",
     "bg-img5.png",
     "bg-img6.png",
+    "bg-img7.png",
 ];
 
 const el = document.getElementById("card");
@@ -499,6 +500,7 @@ function updateClock(){
 
 updateClock();
 setInterval(updateClock, 1000);
+
 
 
 
