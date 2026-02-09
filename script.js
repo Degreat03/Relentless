@@ -432,11 +432,11 @@ let day = new Date()
 let dayName = day.getHours();
 
 if (dayName < 12) {
-    document.getElementById("displayHours").textContent = `☀ Good Morning`;
+    document.getElementById("displayHours").textContent = `<i class="fa-solid fa-sun" style="color: orange;"></i> Good Morning`;
 } else if(dayName < 18){
-    document.getElementById("displayHours").textContent = `☀ Good Afternoon`;
+    document.getElementById("displayHours").textContent = `<i class="fa-solid fa-sun" style="color: orange;"></i> Good Afternoon`;
 } else {
-   document.getElementById("displayHours").textContent = `🌓 Good Evening`; 
+   document.getElementById("displayHours").textContent = `<i class="fa-solid fa-moon"></i> Good Evening`; 
 }
 
 const backgrounds = [
@@ -500,6 +500,7 @@ function updateClock(){
 
 updateClock();
 setInterval(updateClock, 1000);
+
 
 
 
