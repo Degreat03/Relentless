@@ -466,7 +466,7 @@ const backgrounds = [
 const el = document.getElementById("card");
 
 // Day of year (1–366)
-const start = new Date(new Date().getFullYear(), 0, 0);
+const start = new Date(new Date().getFullYear(), 1, 10);
 const newDay = new Date();
 const dayOfYear = Math.floor((newDay - start) / 86400000);
 
@@ -513,6 +513,7 @@ function updateClock(){
 
 updateClock();
 setInterval(updateClock, 1000);
+
 
 
 
