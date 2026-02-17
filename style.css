@@ -230,14 +230,12 @@ html, body{
 }
 
 .thanksgiving img{
-    width: 20rem;
     height: 17rem;
     border-radius: 10px;
     border: none;
 }
 
 .nation img{
-    width: 20rem;
     height: 17rem;
     border-radius: 10px;
     border: none;
@@ -245,7 +243,6 @@ html, body{
 
 
 .church img{
-    width: 20rem;
     height: 17rem;
     border-radius: 10px;
     border: none;
@@ -253,7 +250,6 @@ html, body{
 
 .family img{
     border: none;
-    width: 20rem;
     height: 17rem;
     border-radius: 10px;
 }
@@ -415,6 +411,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
