@@ -174,10 +174,6 @@ html, body{
   transform: scale(1) translateY(0);
 }
 
-.img-wrap {
-    
-}
-
 .img-wrap img,
 .nation img,
 .church img,
@@ -426,6 +422,7 @@ footer{
     pointer-events: auto;
     opacity: 1;
 }
+
 
 
 
